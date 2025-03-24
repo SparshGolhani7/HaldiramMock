@@ -1,0 +1,84 @@
+{
+    "orderDetails": {
+      "amountPaid": 310.94,
+      "dateTime": "24-03-2025 | 22:39",
+      "totalItems": 3,
+      "customer": {
+        "name": "Sparsh",
+        "contact": "1111177777"
+      },
+      "store": {
+        "name": "Mithai Shop/Show Room",
+        "invoiceType": "Tax-invoice"
+      },
+      "orderInfo": {
+        "orderNumber": "B180",
+        "tokenNumber": 375,
+        "invoiceNumber": "544/2425/217946"
+      },
+      "items": [
+        {
+          "name": "HR CHATPATA PANEER ROLL - 120 GM",
+          "price": 76.19,
+          "quantity": {
+            "value": 1,
+            "unit": "NOS"
+          },
+          "gst": 3.80,
+          "total": 79.99
+        },
+        {
+          "name": "ROLL POLE WAFERS STRAWBERRY 100GMS",
+          "price": 42.37,
+          "quantity": {
+            "value": 1,
+            "unit": "PKT"
+          },
+          "gst": 7.62,
+          "total": 49.99
+        },
+        {
+          "name": "CHERISH ALMOND BRITTLE 6 PC 80 GM",
+          "price": 155.92,
+          "quantity": {
+            "value": 1,
+            "unit": "NOS"
+          },
+          "gst": 30.04,
+          "total": 180.96
+        }
+      ],
+      "payment": {
+        "method": "PAYTMQR",
+        "amountPaid": 310.94
+      },
+      "taxSummary": [
+        {
+          "type": "CGST",
+          "taxableAmount": 76.19,
+          "rate": "2.50%",
+          "taxAmount": 1.90
+        },
+        {
+          "type": "SGST",
+          "taxableAmount": 76.19,
+          "rate": "2.50%",
+          "taxAmount": 1.90
+        },
+        {
+          "type": "CGST",
+          "taxableAmount": 155.92,
+          "rate": "9.00%",
+          "taxAmount": 15.02
+        },
+        {
+          "type": "SGST",
+          "taxableAmount": 155.92,
+          "rate": "9.00%",
+          "taxAmount": 15.02
+        }
+      ],
+      "returnedAgainst": null
+    }
+  }
+  

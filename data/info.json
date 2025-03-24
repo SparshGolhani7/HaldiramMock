@@ -1,0 +1,51 @@
+{
+  "config": {
+    "title": "Haldiram's",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/25/Haldiram%27s_Logo_SVG.svg",
+    "feedbackMessage": "Thank you for submitting your feedback",
+    "completeUrl": "https://registration.haldiram.com/",
+    "shopNowUrl": "https://www.haldiram.com/",
+    "storeLocatorUrl": null
+  },
+  "sliderImages": [
+    {
+      "id": 1,
+      "url": "https://b.zmtcdn.com/data/pictures/chains/6/19830606/9ff87694cb5e47a9030feb3420b644b3.jpg"
+    },
+    {
+      "id": 2,
+      "url": "https://www.topbengaluru.com/wp-content/uploads/2024/04/Haldirams-Veg-Restaurant.jpg"
+    },
+    {
+      "id": 3,
+      "url": "https://www.businessapac.com/wp-content/uploads/2024/10/Haldiram-Franchise-1.jpg"
+    }
+  ],
+  "socialLinks": {
+    "facebook": "https://www.facebook.com/haldiramsonline/",
+    "instagram": "https://www.instagram.com/haldirams.official/",
+    "youtube": "https://www.youtube.com/channel/UCyOEMJyQqctch1jTl6Xumog"
+  },
+  "store": {
+    "storeId": "RO544",
+    "storeAddress": "Gaur City Sector-04,  Shop No. A-GF-01 and A-FF-01, Plot No-C1A/GH-01, Greater Noida West, Gaur City1, Greater Noida, India",
+    "storeName": "Gaur City",
+    "city": "NOIDA",
+    "pincode": 201301,
+    "state": "Uttar Pradesh",
+    "stateCode": "09",
+    "landmark": null,
+    "country": "India",
+    "googleMapLink": null,
+    "gstin": "09AAFCA0665B1Z2",
+    "FSSAI": "12723055001091",
+    "storeContact": "+91-0000000000",
+    "storeEmail": "haldiramNoida@gmail.com",
+    "customerCare": "+22-000000"
+  },
+  "termsAndConditions": [
+    { "id": 1, "text": "All disputes are subject to Delhi Jurisdiction." },
+    { "id": 2, "text": "Goods once sold will not be taken back or exchanged." },
+    { "id": 3, "text": "All Bengali sweets must be kept in the refrigerator & consumed on the same day." }
+  ]
+}
