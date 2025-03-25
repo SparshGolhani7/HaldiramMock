@@ -1,15 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import Invoice from './components/Invoice'
+// import SliderImages from './components/SliderImages'
+import { AllProvider } from './context/AllContext'
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      
-    </>
+
+  return (  <AllProvider>
+    <div className='app-container'>
+  
+      <Header/>
+      {/* <SliderImages/> */}
+      <Invoice/>
+      <Footer/>   
+    </div>
+    </AllProvider>
+
   )
 }
 

@@ -1,0 +1,125 @@
+/* Center content */
+.invoice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Card (eBill) */
+
+
+.feedback-card{
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 15px;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+
+}
+/* Feedback Message (Inside Card, No Border Radius) */
+    
+
+
+.amount-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 15px;
+
+    /* Amount & Items Section */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    background: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+
+
+    margin-top: 1rem;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 0 20px #00000014;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    background-color: var(--bg-level-1);
+    color: var(--cl-level-1);
+}
+
+
+
+
+/* Show Details Button (Normal Size) */
+.show-details {
+    background-color: #ff6961;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    margin-top: 10px;
+}
+
+/* Footer Buttons */
+.footer-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.footer-buttons button {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+.customerDetail-card{
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+
+.shopName-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 15px;
+}

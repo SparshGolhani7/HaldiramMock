@@ -1,7 +1,7 @@
-{
+{"storeInfo":{
   "config": {
     "title": "Haldiram's",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/25/Haldiram%27s_Logo_SVG.svg",
+    "logo": "https://ebill.haldiram.com/api/v1/image-store/64a410cf1f61654c902cc290",
     "feedbackMessage": "Thank you for submitting your feedback",
     "completeUrl": "https://registration.haldiram.com/",
     "shopNowUrl": "https://www.haldiram.com/",
@@ -13,11 +13,15 @@
       "url": "https://b.zmtcdn.com/data/pictures/chains/6/19830606/9ff87694cb5e47a9030feb3420b644b3.jpg"
     },
     {
-      "id": 2,
-      "url": "https://www.topbengaluru.com/wp-content/uploads/2024/04/Haldirams-Veg-Restaurant.jpg"
+      "id":2,
+      "url":"https://ebill.haldiram.com/api/v1/image-store/653225cedcc3db78cb235f96"
     },
     {
       "id": 3,
+      "url": "https://www.topbengaluru.com/wp-content/uploads/2024/04/Haldirams-Veg-Restaurant.jpg"
+    },
+    {
+      "id": 4,
       "url": "https://www.businessapac.com/wp-content/uploads/2024/10/Haldiram-Franchise-1.jpg"
     }
   ],
@@ -48,4 +52,6 @@
     { "id": 2, "text": "Goods once sold will not be taken back or exchanged." },
     { "id": 3, "text": "All Bengali sweets must be kept in the refrigerator & consumed on the same day." }
   ]
+
+}
 }

@@ -3,9 +3,10 @@
       "amountPaid": 310.94,
       "dateTime": "24-03-2025 | 22:39",
       "totalItems": 3,
+      "orderDetailLoginUrl":"https://ebill.haldiram.com/d/receipt-login?ch=1",
       "customer": {
         "name": "Sparsh",
-        "contact": "1111177777"
+        "contact": "*****7777"  
       },
       "store": {
         "name": "Mithai Shop/Show Room",
