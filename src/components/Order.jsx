@@ -1,16 +1,17 @@
 import React, { useContext } from 'react';
+import { FaBold } from 'react-icons/fa';
 import { AllContext } from '../context/AllContext';
-import '../Styles/Invoice.css';
+import '../Styles/Order.css';
 
-const Invoice = () => {
-  const { orders, storeInfo } = useContext(AllContext);
+const Order = () => {
+  const { orders } = useContext(AllContext);
 
   const handleRedirect = () => {
     window.location.href = "https://ebill.haldiram.com/d/receipt-login?ch=1";
   };
 
   return (
-    <div className="invoice-container">
+    <div className="order-container">
      
         {/* Feedback Message inside Card */}
         <div className='feedback-card'>
@@ -46,9 +47,11 @@ const Invoice = () => {
 
       </div>
 
+      
+
 
     </div>
   );
 };
 
-export default Invoice;
+export default Order;

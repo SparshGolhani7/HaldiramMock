@@ -1,0 +1,53 @@
+.QR-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.QR-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.QR-card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.QR-image {
+    width: 100px; /* Adjust QR size */
+    height: 100px;
+    margin: 10px auto;
+}
+
+.viewDetails-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 50%;
+    transition: 0.3s;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+.viewDetails-button:hover {
+    background-color: #f8f8f8;
+}

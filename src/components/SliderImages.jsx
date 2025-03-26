@@ -1,57 +1,52 @@
-// import React, { useContext } from 'react'
+// import React, { useContext, useState } from 'react';
 // import { AllContext } from '../context/AllContext';
-// import "../Styles/SliderImages.css"
-
+// import "../Styles/SliderImages.css";
 
 // const SliderImages = () => {
-//     const {storeInfo} = useContext(AllContext);
-//   return (<>
-  
-//   <div className="slideshow-container">
+//     const { storeInfo } = useContext(AllContext);
+//     const [currentIndex, setCurrentIndex] = useState(0);
 
+//     const sliderImages = storeInfo?.sliderImages || [];
 
-//   <div className="mySlides fade">
-//     <div className="numbertext">1 / 4</div>
-//     <img src={storeInfo?.sliderImages[0].url} style="width:100%"/>
-//     {/* <div className="text">Caption Text</div> */}
-//   </div>
+//     const plusSlides = (step) => {
+//         setCurrentIndex((prevIndex) => 
+//             (prevIndex + step + sliderImages.length) % sliderImages.length
+//         );
+//     };
 
-//   <div className="mySlides fade">
-//     <div className="numbertext">2 / 4</div>
-//     <img src={storeInfo?.sliderImages[1].url}  style="width:100%"/>
-//     {/* <div className="text">Caption Two</div> */}
-//   </div>
+//     const currentSlide = (index) => {
+//         setCurrentIndex(index);
+//     };
 
-//   <div className="mySlides fade">
-//     <div className="numbertext">3 / 4</div>
-//     <img src={storeInfo?.sliderImages[2].url} style="width:100%"/>
-//     {/* <div className="text">Caption Three</div> */}
-//   </div>
+//     return (
+//         <>
+//             <div className="slideshow-container">
+//                 {sliderImages.length > 0 && (
+//                     <div className="mySlides fade">
+//                         <div className="numbertext">
+//                             {currentIndex + 1} / {sliderImages.length}
+//                         </div>
+//                         <img src={sliderImages[currentIndex]?.url} alt={`Slide ${currentIndex + 1}`} />
+//                     </div>
+//                 )}
 
-//   <div className="mySlides fade">
-//     <div className="numbertext">4 /4</div>
-//     <img src={storeInfo?.sliderImages[3].url} style="width:100%"/>
-//     {/* <div className="text">Caption Three</div> */}
-//   </div>
+//                 <a className="prev" onClick={() => plusSlides(-1)}>&#10094;</a>
+//                 <a className="next" onClick={() => plusSlides(1)}>&#10095;</a>
+//             </div>
 
+//             <br />
 
-//   <a className="prev" onclick="plusSlides(-1)">&#10094;</a>
-//   <a className="next" onclick="plusSlides(1)">&#10095;</a>
-// </div>
-// <br/>
-
-
-// <div style="text-align:center">
-//   <span className="dot" onclick="currentSlide(1)"></span>
-//   <span className="dot" onclick="currentSlide(2)"></span>
-//   <span className="dot" onclick="currentSlide(3)"></span>
-//   <span className="dot" onclick="currentSlide(4)"></span>
-// </div>
-
-//   </>
-
-//   )
-// }
+//             <div style={{ textAlign: "center" }}>
+//                 {sliderImages.map((_, index) => (
+//                     <span
+//                         key={index}
+//                         className={`dot ${currentIndex === index ? "active" : ""}`}
+//                         onClick={() => currentSlide(index)}
+//                     ></span>
+//                 ))}
+//             </div>
+//         </>
+//     );
+// };
 
 // export default SliderImages;
-

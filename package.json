@@ -9,11 +9,12 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "api1": "json-server --watch data/info.json --port 5075",
-    "api2":"json-server --watch data/order.json --port 5076"    
+    "api2": "json-server --watch data/order.json --port 5076"
   },
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

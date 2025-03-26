@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
 }
 
 .logo {
@@ -41,4 +42,21 @@
   color: #888;
 }
 
+
+/* .app-container{
+  background-color: aqua;
+} */
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height */
+  
+}
+
+.content {
+  flex: 1; /* Allows content to take remaining space */
+  overflow-y: auto; /* Enables scrolling for content */
+  padding: 20px;
+}
 

@@ -1,0 +1,225 @@
+/* .completeProfile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+
+.completeProfile-card{
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 0px;
+  
+
+} */
+.completeProfile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.completeProfile-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+/* Updated text style (above and below the button) */
+.completeProfile-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Updated button styling */
+.completeProfile-button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 50%;
+    transition: 0.3s;
+}
+
+.completeProfile-button:hover {
+    background-color: #f8f8f8;
+}
+
+
+
+.socialMedia-card{
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center
+}
+
+.socialMedia-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.social-icons img {
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+    border-radius: 50%; /* Circular shape */
+    transition: transform 0.3s ease;
+    cursor: pointer; /* Pointer on hover */
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.socialMedia-card p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 5px;
+}
+
+.shopNow-card{
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 16px;
+
+}
+
+
+.shopNow-button{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 35%;
+    transition: 0.3s;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+
+.shopNow-button:hover {
+    background-color: #f8f8f8;
+}
+
+
+
+/*right left*/
+
+
+.leftDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    color: black;
+}
+
+.leftDescription p {
+    margin: 5px 0 0;
+    font-size: 13px;
+    color: black;
+}
+
+.RightShopNow {
+    display: flex;
+    align-items: center;
+   
+}
+
+.shopNow-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s ease;
+    
+}
+
+ .shopNow-button:hover {
+    background-color: #f8f8f8;
+}
+
+.shopNow-icon {
+    font-size: 12px;
+} 
+
+
+.store-card{
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+.storeLocator-button{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s ease;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.storeLocator-button:hover {
+    background-color: #f8f8f8;
+}
