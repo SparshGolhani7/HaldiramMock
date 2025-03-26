@@ -9,6 +9,14 @@ const Invoice1 = () => {
 
 <div className='showDetailsInvoice-card'>
       <p><strong>Invoice</strong> #{orders?.orderInfo?.invoiceNumber}</p>
+
+
+      {orders?.items?.map((item)=>(
+        <>
+        <h4>{item.name}</h4>
+        <p>QTY.  {orders}</p>
+        </>
+      ))}
       
       </div>
 
