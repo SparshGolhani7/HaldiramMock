@@ -1,6 +1,7 @@
-import { createContext , useState, useEffect, useContext } from "react";
+import { createContext , useState, useEffect } from "react";
 
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const AllContext = createContext();
 
 export const AllProvider = ({ children }) => {

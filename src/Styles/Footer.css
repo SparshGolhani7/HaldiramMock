@@ -1,4 +1,17 @@
 /* Footer Container */
+
+.footer-container {
+    position: fixed; /* Make it stay at the top */
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 1000; /* Ensure it stays above other content */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 .footer-buttons {
     position: fixed; /* Keep it fixed at the bottom */
     bottom: 0;

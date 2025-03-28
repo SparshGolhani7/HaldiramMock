@@ -1,5 +1,6 @@
 import './App.css'
 import CompleteProfile from './components/CompleteProfile'
+import DownloadInvoice from './components/DownloadInvoice'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Invoice1 from './components/Invoice1'
@@ -20,6 +21,7 @@ function App() {
           {/* <SliderImages/> */}
           <Order />
           <Invoice1/>
+          <DownloadInvoice/>
           
           <CompleteProfile />
           <QRBill/>
